@@ -1,0 +1,3 @@
+1. As a user, I want a tutorial, so I can understand how to use the system.
+2. As a student, I want to know the library schedule, so I can organize my study.
+3. As a librarian, I want a personal interface, so I can see more information than students.
