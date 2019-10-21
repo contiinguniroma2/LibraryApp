@@ -2,4 +2,4 @@
 
 2.   As a student, I want to search for a library in a specified location, so I can study with no noise.
 
-3.   As a librarian, I want to update the library free seats situation, so other people can join it.
+3.   As a student, i want to report library’s issues, so i can inform staff.
