@@ -1,4 +1,6 @@
-1. As a student, I want to find a free seat in libraries around me, so I don’t waste my time.
+﻿1. As a student, I want to find a free seat in libraries around me, so I don’t waste my time.
+
 2. As a librarian, I want to know the statistics about the flow of    people that attend the library, so that I can organize the staff.    
+
 3. As a librarian, I want to update with one click the number of free seats, so that I can give the possibility to the students if there are free seats.
 
