@@ -1,5 +1,0 @@
-1.   The system shall provide two interfaces one for the user and one for the librarian.
-
-2.   The system shall display to the user the library free seats number with the format “free seats/total seats”.
-
-3.   The system shall allow the user to search for libraries within a specified range from his position.
