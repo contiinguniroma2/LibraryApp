@@ -1,3 +1,0 @@
-1. The system shall display in a map the libraries around my current position within a dynamic radius.
-2. The system shall display the opening times and if there are pc workstations in a clicked library.
-3. The system shall provide to update the number of free seats by a single click.  
