@@ -1,0 +1,29 @@
+div#mapRes{   /*Margine tra input ricerca guest e mappa*/
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div#logo{     /* centrare il logo */
+  vertical-align: middle;
+  text-align: center;
+  padding-top: 20px;
+}
+
+div#guestSearch{
+  padding-top: 10px;
+}
+
+div#results{
+  padding-top: 15px;
+}
+
+ul#resultsLib {
+  position: absolute;
+  top: 15px;
+  bottom: 20px;
+  left: 20px;
+  right: 30px;
+  overflow: scroll;
+  margin: 0;
+  padding: 0;
+}
