@@ -1,5 +1,0 @@
-1.   As a user, I want to check in advance if there are free seats in the library, so I don’t waste time if there aren’t.
-
-2.   As a student, I want to search for a library in a specified location, so I can study with no noise.
-
-3.   As a student, i want to report library’s issues, so i can inform staff.
