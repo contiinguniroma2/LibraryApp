@@ -1158,13 +1158,30 @@
 											"height": 13,
 											"text": "-librId: String",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFzr7CnEXl+POM=",
+											"_parent": {
+												"$ref": "AAAAAAFvSHe+5IGc8Rk="
+											},
+											"model": {
+												"$ref": "AAAAAAFzr7Cm03l749I="
+											},
+											"font": "Arial;13;0",
+											"left": 949,
+											"top": 830,
+											"width": 222.955078125,
+											"height": 13,
+											"text": "-status: Enum",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 944,
 									"top": 750,
 									"width": 232.955078125,
-									"height": 83
+									"height": 98
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -1187,7 +1204,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 838,
+											"top": 853,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+setTitle(title: String): void",
@@ -1204,7 +1221,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 853,
+											"top": 868,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+getTitle(): String",
@@ -1221,7 +1238,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 868,
+											"top": 883,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+setDesc(desc: String): void",
@@ -1238,7 +1255,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 883,
+											"top": 898,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+getDesc(): String",
@@ -1255,7 +1272,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 898,
+											"top": 913,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+getStudentId(): String",
@@ -1272,7 +1289,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 913,
+											"top": 928,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+getReportId(): String",
@@ -1289,7 +1306,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 928,
+											"top": 943,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+getLibrId(): String",
@@ -1306,7 +1323,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 943,
+											"top": 958,
 											"width": 222.955078125,
 											"height": 13,
 											"text": "+getStatus(): String",
@@ -1323,16 +1340,16 @@
 											},
 											"font": "Arial;13;0",
 											"left": 949,
-											"top": 958,
+											"top": 973,
 											"width": 222.955078125,
 											"height": 13,
-											"text": "+setStatus(status: String): void",
+											"text": "+setStatus(status: Integer): void",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 944,
-									"top": 833,
+									"top": 848,
 									"width": 232.955078125,
 									"height": 143
 								},
@@ -1374,7 +1391,7 @@
 							"left": 944,
 							"top": 712,
 							"width": 232.955078125,
-							"height": 264,
+							"height": 279,
 							"nameCompartment": {
 								"$ref": "AAAAAAFvSHe+5IGXjL4="
 							},
@@ -8403,6 +8420,16 @@
 							"name": "librId",
 							"visibility": "private",
 							"type": "String"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFzr7Cm03l749I=",
+							"_parent": {
+								"$ref": "AAAAAAFvSHe+44GU/oI="
+							},
+							"name": "status",
+							"visibility": "private",
+							"type": "Enum"
 						}
 					],
 					"operations": [
@@ -8591,7 +8618,7 @@
 										"$ref": "AAAAAAFzr4MJCCpGzh8="
 									},
 									"name": "status",
-									"type": "String"
+									"type": "Integer"
 								},
 								{
 									"_type": "UMLParameter",
