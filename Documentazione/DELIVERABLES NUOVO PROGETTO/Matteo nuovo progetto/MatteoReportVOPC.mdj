@@ -2238,7 +2238,7 @@
 											"font": "Arial;13;0",
 											"left": 1301,
 											"top": 629,
-											"width": 355.88134765625,
+											"width": 356.611328125,
 											"height": 13,
 											"text": "«dao»"
 										},
@@ -2251,7 +2251,7 @@
 											"font": "Arial;13;1",
 											"left": 1301,
 											"top": 644,
-											"width": 355.88134765625,
+											"width": 356.611328125,
 											"height": 13,
 											"text": "ReportDao"
 										},
@@ -2286,7 +2286,7 @@
 									"font": "Arial;13;0",
 									"left": 1296,
 									"top": 624,
-									"width": 365.88134765625,
+									"width": 366.611328125,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFv14rN3r+BSio="
@@ -2313,7 +2313,7 @@
 									"font": "Arial;13;0",
 									"left": 1296,
 									"top": 662,
-									"width": 365.88134765625,
+									"width": 366.611328125,
 									"height": 10
 								},
 								{
@@ -2338,9 +2338,9 @@
 											"font": "Arial;13;0",
 											"left": 1301,
 											"top": 677,
-											"width": 355.88134765625,
+											"width": 356.611328125,
 											"height": 13,
-											"text": "+getReportFromDbByLibrary(librId: String): List<Report>",
+											"text": "+getReportFromDbByLibrary(library: Library): List<Report>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2355,7 +2355,7 @@
 											"font": "Arial;13;0",
 											"left": 1301,
 											"top": 692,
-											"width": 355.88134765625,
+											"width": 356.611328125,
 											"height": 13,
 											"text": "+saveFeedbackOnDb(report: Report): void",
 											"horizontalAlignment": 0
@@ -2372,7 +2372,7 @@
 											"font": "Arial;13;0",
 											"left": 1301,
 											"top": 707,
-											"width": 355.88134765625,
+											"width": 356.611328125,
 											"height": 13,
 											"text": "+deleteFeedbackFromDb(report: Report): void",
 											"horizontalAlignment": 0
@@ -2389,16 +2389,16 @@
 											"font": "Arial;13;0",
 											"left": 1301,
 											"top": 722,
-											"width": 355.88134765625,
+											"width": 356.611328125,
 											"height": 13,
-											"text": "+getReportFromDbByStudent(studId: String): List<Report>",
+											"text": "+getReportFromDbByStudent(student: Student): List<Report>",
 											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1296,
 									"top": 672,
-									"width": 365.88134765625,
+									"width": 366.611328125,
 									"height": 68
 								},
 								{
@@ -2438,7 +2438,7 @@
 							"containerChangeable": true,
 							"left": 1296,
 							"top": 624,
-							"width": 365.88134765625,
+							"width": 366.611328125,
 							"height": 116,
 							"nameCompartment": {
 								"$ref": "AAAAAAFv14rN3r+AJIY="
@@ -9058,8 +9058,10 @@
 									"_parent": {
 										"$ref": "AAAAAAFv9xRDp05brYY="
 									},
-									"name": "librId",
-									"type": "String"
+									"name": "library",
+									"type": {
+										"$ref": "AAAAAAFzrDxH3wnj/jY="
+									}
 								}
 							]
 						},
@@ -9137,8 +9139,10 @@
 									"_parent": {
 										"$ref": "AAAAAAFzqzyw66uBiNU="
 									},
-									"name": "studId",
-									"type": "String"
+									"name": "student",
+									"type": {
+										"$ref": "AAAAAAFvSHfejIG+j4c="
+									}
 								},
 								{
 									"_type": "UMLParameter",
