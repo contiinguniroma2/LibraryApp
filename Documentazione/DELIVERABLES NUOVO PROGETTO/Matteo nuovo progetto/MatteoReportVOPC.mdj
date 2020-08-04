@@ -2089,7 +2089,7 @@
 											"top": 692,
 											"width": 356.611328125,
 											"height": 13,
-											"text": "+saveFeedbackOnDb(report: Report): void",
+											"text": "+saveReportOnDb(report: Report): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -2106,7 +2106,7 @@
 											"top": 707,
 											"width": 356.611328125,
 											"height": 13,
-											"text": "+deleteFeedbackFromDb(report: Report): void",
+											"text": "+deleteReportFromDb(report: Report): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -8596,7 +8596,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFv14rN3b99yEQ="
 							},
-							"name": "saveFeedbackOnDb",
+							"name": "saveReportOnDb",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -8626,7 +8626,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFv14rN3b99yEQ="
 							},
-							"name": "deleteFeedbackFromDb",
+							"name": "deleteReportFromDb",
 							"parameters": [
 								{
 									"_type": "UMLParameter",
@@ -10555,7 +10555,7 @@
 									"containerExtending": true,
 									"left": 212,
 									"top": 112,
-									"width": 84.68359375,
+									"width": 84,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuHbdkDwY="
@@ -15355,7 +15355,7 @@
 									"containerExtending": true,
 									"left": 556,
 									"top": 540,
-									"width": 102.6484375,
+									"width": 102,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuIrhNCcQ="
@@ -15662,7 +15662,7 @@
 									"containerExtending": true,
 									"left": 720,
 									"top": 592,
-									"width": 98.67578125,
+									"width": 98,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuIrheQvU="
@@ -17004,7 +17004,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 644,
-									"width": 79.380859375,
+									"width": 71.3125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJbigOzA="
@@ -17190,7 +17190,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 708,
-									"width": 79.380859375,
+									"width": 71.3125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJbiq85k="
@@ -17376,7 +17376,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 764,
-									"width": 79.380859375,
+									"width": 71.3125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJbi0zUc="
@@ -17562,7 +17562,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 820,
-									"width": 92.013671875,
+									"width": 82.685546875,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJbi+HcM="
@@ -17748,7 +17748,7 @@
 									"containerExtending": true,
 									"left": 236,
 									"top": 876,
-									"width": 79.380859375,
+									"width": 71.3125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJbjIpxM="
@@ -18626,7 +18626,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 24,
-									"width": 79.380859375,
+									"width": 71.3125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJrjwkFE="
@@ -18674,7 +18674,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 60,
-									"width": 120.396484375,
+									"width": 112.427734375,
 									"height": 22
 								},
 								{
@@ -18829,7 +18829,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 96,
-									"width": 79.380859375,
+									"width": 71.3125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJ7j7LCw="
@@ -19015,7 +19015,7 @@
 									"containerExtending": true,
 									"left": 740,
 									"top": 148,
-									"width": 79.380859375,
+									"width": 71.3125,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJ7kFFlY="
@@ -19781,7 +19781,7 @@
 									"containerExtending": true,
 									"left": 724,
 									"top": 888,
-									"width": 85.345703125,
+									"width": 85,
 									"height": 36,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAFztSAuJ7kr0BU="
