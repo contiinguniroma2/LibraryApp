@@ -2075,13 +2075,30 @@
 											"height": 13,
 											"text": "+getReportFromDbByStudent(student: Student): List<Report>",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLOperationView",
+											"_id": "AAAAAAFz1KTLiM7jQhU=",
+											"_parent": {
+												"$ref": "AAAAAAFv14rN3r+GrDs="
+											},
+											"model": {
+												"$ref": "AAAAAAFz1KTLVc7g1AM="
+											},
+											"font": "Arial;13;0",
+											"left": 1301,
+											"top": 737,
+											"width": 356.611328125,
+											"height": 13,
+											"text": "+updateReportOnDb(report: Report): void",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 1296,
 									"top": 672,
 									"width": 366.611328125,
-									"height": 68
+									"height": 83
 								},
 								{
 									"_type": "UMLReceptionCompartmentView",
@@ -2121,7 +2138,7 @@
 							"left": 1296,
 							"top": 624,
 							"width": 366.611328125,
-							"height": 116,
+							"height": 131,
 							"nameCompartment": {
 								"$ref": "AAAAAAFv14rN3r+AJIY="
 							},
@@ -7102,7 +7119,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1348,
-									"top": 758,
+									"top": 773,
 									"height": 13,
 									"alpha": 0.5235987755982988,
 									"distance": 30,
@@ -7123,7 +7140,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1361,
-									"top": 761,
+									"top": 776,
 									"height": 13,
 									"alpha": 0.7853981633974483,
 									"distance": 40,
@@ -7144,7 +7161,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 1320,
-									"top": 754,
+									"top": 769,
 									"height": 13,
 									"alpha": -0.5235987755982988,
 									"distance": 25,
@@ -7249,7 +7266,7 @@
 							"tail": {
 								"$ref": "AAAAAAFv14rN3r9/2W4="
 							},
-							"points": "1333:739;1333:803;1176:803",
+							"points": "1333:754;1333:803;1176:803",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFztLIgGOACdEc="
@@ -9273,6 +9290,36 @@
 										"$ref": "AAAAAAFzqzyw66uBiNU="
 									},
 									"type": "List<Report>",
+									"direction": "return"
+								}
+							]
+						},
+						{
+							"_type": "UMLOperation",
+							"_id": "AAAAAAFz1KTLVc7g1AM=",
+							"_parent": {
+								"$ref": "AAAAAAFv14rN3b99yEQ="
+							},
+							"name": "updateReportOnDb",
+							"parameters": [
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFz1KT7bM+M1K8=",
+									"_parent": {
+										"$ref": "AAAAAAFz1KTLVc7g1AM="
+									},
+									"name": "report",
+									"type": {
+										"$ref": "AAAAAAFvSHe+44GU/oI="
+									}
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFz1KT7bc+NVCQ=",
+									"_parent": {
+										"$ref": "AAAAAAFz1KTLVc7g1AM="
+									},
+									"type": "void",
 									"direction": "return"
 								}
 							]
