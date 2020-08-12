@@ -651,7 +651,7 @@
 											"top": 506,
 											"width": 314.69775390625,
 											"height": 13,
-											"text": "-studentBean: StudentBean",
+											"text": "-listStudentBean: List<StudentBean>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -702,7 +702,7 @@
 											"top": 551,
 											"width": 314.69775390625,
 											"height": 13,
-											"text": "-message: Message",
+											"text": "-listMessage: List<Message>",
 											"horizontalAlignment": 0
 										},
 										{
@@ -821,7 +821,7 @@
 											"top": 649,
 											"width": 314.69775390625,
 											"height": 13,
-											"text": "+sendMessageInteraction(): void",
+											"text": "+sendMessageInteraction(Student student): void",
 											"horizontalAlignment": 0
 										},
 										{
@@ -11171,11 +11171,9 @@
 							"_parent": {
 								"$ref": "AAAAAAFw1U2CFs9FXQo="
 							},
-							"name": "studentBean",
+							"name": "listStudentBean",
 							"visibility": "private",
-							"type": {
-								"$ref": "AAAAAAFw1VSYRc/AuOc="
-							}
+							"type": "List<StudentBean>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -11207,11 +11205,9 @@
 							"_parent": {
 								"$ref": "AAAAAAFw1U2CFs9FXQo="
 							},
-							"name": "message",
+							"name": "listMessage",
 							"visibility": "private",
-							"type": {
-								"$ref": "AAAAAAFzq3glbXforv4="
-							}
+							"type": "List<Message>"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -11348,6 +11344,15 @@
 									},
 									"type": "void",
 									"direction": "return"
+								},
+								{
+									"_type": "UMLParameter",
+									"_id": "AAAAAAFz43rcvJb/Tig=",
+									"_parent": {
+										"$ref": "AAAAAAFzq5BKP6Qaqmw="
+									},
+									"name": "Student student",
+									"type": ""
 								}
 							]
 						},
@@ -13924,7 +13929,8 @@
 									"_parent": {
 										"$ref": "AAAAAAFz14KOMPJsZxw="
 									},
-									"name": "String studentId"
+									"name": "String studentId",
+									"type": ""
 								},
 								{
 									"_type": "UMLParameter",
