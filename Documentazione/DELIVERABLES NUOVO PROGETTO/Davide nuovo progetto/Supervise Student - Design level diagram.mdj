@@ -155,13 +155,30 @@
 											"height": 13,
 											"text": "-superviseController: SuperviseController",
 											"horizontalAlignment": 0
+										},
+										{
+											"_type": "UMLAttributeView",
+											"_id": "AAAAAAFz43xmWZuo0K8=",
+											"_parent": {
+												"$ref": "AAAAAAFw1UdTqM6Dts4="
+											},
+											"model": {
+												"$ref": "AAAAAAFz43xmFJulFjk="
+											},
+											"font": "Arial;13;0",
+											"left": 13,
+											"top": 457,
+											"width": 237.70703125,
+											"height": 13,
+											"text": "-usernameList: List<String>",
+											"horizontalAlignment": 0
 										}
 									],
 									"font": "Arial;13;0",
 									"left": 8,
 									"top": 422,
 									"width": 247.70703125,
-									"height": 38
+									"height": 53
 								},
 								{
 									"_type": "UMLOperationCompartmentView",
@@ -184,7 +201,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 13,
-											"top": 465,
+											"top": 480,
 											"width": 237.70703125,
 											"height": 13,
 											"text": "+initialize(): void",
@@ -201,7 +218,7 @@
 											},
 											"font": "Arial;13;0",
 											"left": 13,
-											"top": 480,
+											"top": 495,
 											"width": 237.70703125,
 											"height": 13,
 											"text": "+showInfoAccount(): void",
@@ -210,7 +227,7 @@
 									],
 									"font": "Arial;13;0",
 									"left": 8,
-									"top": 460,
+									"top": 475,
 									"width": 247.70703125,
 									"height": 38
 								},
@@ -10644,6 +10661,16 @@
 							"name": "superviseController",
 							"visibility": "private",
 							"type": "SuperviseController"
+						},
+						{
+							"_type": "UMLAttribute",
+							"_id": "AAAAAAFz43xmFJulFjk=",
+							"_parent": {
+								"$ref": "AAAAAAFw1UdTpc57Mdo="
+							},
+							"name": "usernameList",
+							"visibility": "private",
+							"type": "List<String>"
 						}
 					],
 					"operations": [
